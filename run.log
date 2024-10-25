@@ -1,0 +1,116 @@
+# vsim sram_top7 -sv_lib C:/questasim64_10.7c/uvm-1.1d/win64/uvm_dpi -l run.log 
+# Start time: 17:11:30 on Aug 19,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.uvm_pkg(fast)
+# Loading work.top_sv_unit(fast)
+# ** Note: (vsim-8785) UVM-aware debugging capabilities will be disabled since no compiled "questa_uvm_pkg" can be found.
+# This also means that later if you turn on UVM-aware debugging your debug simulations may have
+# different random seeds from your non-debug simulations.
+# Loading work.sram_top7(fast)
+# Loading work.sram_dut(fast)
+# Loading work.sram_intf(fast)
+# ** Warning: (vsim-3764) Stand-alone call to function 'get' treated as implicit void cast.
+#    Time: 0 ns  Iteration: 0  Region: /top_sv_unit File: mon1.sv Line: 20
+# ** Warning: (vsim-3764) Stand-alone call to function 'get' treated as implicit void cast.
+#    Time: 0 ns  Iteration: 0  Region: /top_sv_unit File: mon2.sv Line: 20
+# Loading C:/questasim64_10.7c/uvm-1.1d/win64/uvm_dpi.dll
+add wave sim:/sram_top7/DUT/intf/*
+run
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO @ 0: reporter [RNTST] Running test sram_inc_addr_test...
+# UVM_INFO scoreboard.sv(37) @ 15: uvm_test_top.env.scb [SCB: DATA MATCHED] dut dout =   0, ref dout =  0
+# UVM_INFO scoreboard.sv(43) @ 15: uvm_test_top.env.scb [-----------------------------------------------------------------------------------------------------] 
+# UVM_INFO scoreboard.sv(37) @ 35: uvm_test_top.env.scb [SCB: DATA MATCHED] dut dout =   0, ref dout =  0
+# UVM_INFO scoreboard.sv(43) @ 35: uvm_test_top.env.scb [-----------------------------------------------------------------------------------------------------] 
+# UVM_INFO scoreboard.sv(37) @ 55: uvm_test_top.env.scb [SCB: DATA MATCHED] dut dout =   3, ref dout =  3
+# UVM_INFO scoreboard.sv(43) @ 55: uvm_test_top.env.scb [-----------------------------------------------------------------------------------------------------] 
+# UVM_INFO scoreboard.sv(37) @ 75: uvm_test_top.env.scb [SCB: DATA MATCHED] dut dout =   3, ref dout =  3
+# UVM_INFO scoreboard.sv(43) @ 75: uvm_test_top.env.scb [-----------------------------------------------------------------------------------------------------] 
+# UVM_INFO scoreboard.sv(37) @ 95: uvm_test_top.env.scb [SCB: DATA MATCHED] dut dout =  95, ref dout = 95
+# UVM_INFO scoreboard.sv(43) @ 95: uvm_test_top.env.scb [-----------------------------------------------------------------------------------------------------] 
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:32:12 on Aug 19,2024
+# vlog -reportprogress 300 top.sv "+incdir+C:/questasim64_10.7c/verilog_src/uvm-1.1d/src" C:/questasim64_10.7c/verilog_src/uvm-1.1d/src/uvm_pkg.sv 
+# -- Compiling package top_sv_unit
+# -- Importing package uvm_pkg (uvm-1.1d Built-in)
+# -- Compiling interface sram_intf
+# -- Compiling module sram_dut
+# -- Compiling module sram_top7
+# -- Compiling package uvm_pkg (uvm-1.1d Built-in)
+# 
+# Top level modules:
+# 	sram_top7
+# End time: 17:32:13 on Aug 19,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 17:32:14 on Aug 19,2024, Elapsed time: 0:20:44
+# Errors: 0, Warnings: 2
+# vsim sram_top7 -sv_lib C:/questasim64_10.7c/uvm-1.1d/win64/uvm_dpi -l run.log 
+# Start time: 17:32:14 on Aug 19,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.uvm_pkg(fast)
+# Loading work.top_sv_unit(fast)
+# ** Note: (vsim-8785) UVM-aware debugging capabilities will be disabled since no compiled "questa_uvm_pkg" can be found.
+# This also means that later if you turn on UVM-aware debugging your debug simulations may have
+# different random seeds from your non-debug simulations.
+# Loading work.sram_top7(fast)
+# Loading work.sram_dut(fast)
+# Loading work.sram_intf(fast)
+# ** Warning: (vsim-3764) Stand-alone call to function 'get' treated as implicit void cast.
+#    Time: 0 ns  Iteration: 0  Region: /top_sv_unit File: mon1.sv Line: 20
+# ** Warning: (vsim-3764) Stand-alone call to function 'get' treated as implicit void cast.
+#    Time: 0 ns  Iteration: 0  Region: /top_sv_unit File: mon2.sv Line: 20
+# Loading C:/questasim64_10.7c/uvm-1.1d/win64/uvm_dpi.dll
+run
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO @ 0: reporter [RNTST] Running test sram_inc_addr_test...
+# UVM_INFO scoreboard.sv(37) @ 15: uvm_test_top.env.scb [SCB: DATA MATCHED] dut dout =   0, ref dout =  0
+# UVM_INFO scoreboard.sv(43) @ 15: uvm_test_top.env.scb [----------------------------------------------------------------------------------] 
+# UVM_INFO scoreboard.sv(37) @ 35: uvm_test_top.env.scb [SCB: DATA MATCHED] dut dout =   0, ref dout =  0
+# UVM_INFO scoreboard.sv(43) @ 35: uvm_test_top.env.scb [----------------------------------------------------------------------------------] 
+# UVM_INFO scoreboard.sv(37) @ 55: uvm_test_top.env.scb [SCB: DATA MATCHED] dut dout =   3, ref dout =  3
+# UVM_INFO scoreboard.sv(43) @ 55: uvm_test_top.env.scb [----------------------------------------------------------------------------------] 
+# UVM_INFO scoreboard.sv(37) @ 75: uvm_test_top.env.scb [SCB: DATA MATCHED] dut dout =   3, ref dout =  3
+# UVM_INFO scoreboard.sv(43) @ 75: uvm_test_top.env.scb [----------------------------------------------------------------------------------] 
+# UVM_INFO scoreboard.sv(37) @ 95: uvm_test_top.env.scb [SCB: DATA MATCHED] dut dout =  95, ref dout = 95
+# UVM_INFO scoreboard.sv(43) @ 95: uvm_test_top.env.scb [----------------------------------------------------------------------------------] 
